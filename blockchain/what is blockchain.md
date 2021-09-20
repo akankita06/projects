@@ -1,11 +1,11 @@
-### What is blockchain ?
+## What is blockchain ?
 
 According to Wikipedia definition, "Blockchain is a a growing list of records called **Blocks,** that are linked together using **cryptography.**"
 
 A **Block** consists of data and block header. Data in the block could be just a string of words, program, money transfers, or any other type of transaction. Block header consists of quite a few fields including hash of the previous block in the chain. A **Hash** is like a fingerprint or a unique identifier of the block. You can go back up the chain from the current block following the previous hash field in the blocks. This is why we say that in a blockchain, blocks are linked by cryptography (hashes). The hash of the block is derived by applying a hashing function like SHA-256 on the data in the block. The more detailed list of block header fields is described under the section of Blockchain mining. 
 
 
-### Hashing
+## Hashing
 
 "Hashing function is a mathematical function that converts an input of arbitrary size into an encrypted output of fixed size." For eg: whether your input is 1 character long or 10 pages long, a hashing algorithm will provide an encrypted output for it that is always x character long. 
 
@@ -24,7 +24,7 @@ In blockchain, hashing has following uses:
 3. Cryptocurrency mining for blockchains using Proof-of-work mechanism 
 
 
-### Main characteristics of blockchain
+## Main characteristics of blockchain
 
 Following are the characteristics or important underlying concepts of blockchain:
 
@@ -95,7 +95,7 @@ While all the above really make the case for blockchain, it still faces some **c
     Blockchains have been around for sometime now, however, it still lacks essential governmental regulations around it to be used widely. 
 
 
-### What is blockchain mining ?
+## What is blockchain mining ?
 
 Blockchain consists of a number of blocks linked cryptographically. Each block stores multiple transactions. The transactions that are verified by a node but not yet added to any block are collected in that node's "unconfirmed transactions" area called memory pool. Blockchain miners can choose the transactions from this pool to add to the block. 
 
@@ -121,7 +121,7 @@ Since, the hashing algorithm is computationally significantly complex, achieving
 **Blockchain mining is only relevant for blockchain networks that use proof-of-work mechanism.** 
 
 
-### Blockchain vs cryptocurrency vs token
+## Blockchain vs cryptocurrency vs token
 
 Blockchain is the system of devices connected in p2p fashion with certain characteristics described above. It is the underlying technology on which some rules are defined which represent how the blockchain operates and which all the participants of blockchain must abide by for the blockchain to function. These rules are called **Protocols.** The rules include things like algorithms being used, rewards and penalties, etc. 
 
@@ -130,7 +130,7 @@ The rules also define the native asset of the blockchain network, which is calle
 Some organizations or projects developed on top of the blockchain networks define their unit of value for transactions instead of using the native asset. These units are called **Tokens.** These are created by platforms that are built on top of the blockchains. Eg: Ethereum blockchain has multiple tokens defined on it like DAI, LINK, etc. These tokens can be used to participate in DeFI mechanisms, accessing platform-specific services, etc. Tokens can also represent physical assets like a utility or service (real-estate, data storage, art, processing power, etc.)
 
 
-### Uses of blockchain
+## Uses of blockchain
 
 Some of the common uses for blockchains are for cases where:
 
@@ -139,7 +139,7 @@ Some of the common uses for blockchains are for cases where:
 - immutability and security is required - eg: in healthcare for keeping health records of the patients without  the fear of it being tampered in anyway and accessible only by certain individuals ensuring privacy
 
 
-### Resources
+## Resources
 
 - [https://www.udemy.com/course/build-your-blockchain-az/](https://www.udemy.com/course/build-your-blockchain-az/)
 - [https://www.gemini.com/cryptopedia/cryptocurrencies-vs-tokens-difference](https://www.gemini.com/cryptopedia/cryptocurrencies-vs-tokens-difference)
